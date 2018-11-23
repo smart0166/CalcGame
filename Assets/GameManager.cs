@@ -29,17 +29,14 @@ public class GameManager : MonoBehaviour {
         buttonText1.text = answers[0].ToString();
         buttonText2.text = answers[1].ToString();
         buttonText3.text = answers[2].ToString();
-
-
         
-        answer1 = answer;
-        buttonText1.text = answer.ToString();
-        answer2 = answer + 1;
-        buttonText2.text = (answer + 1).ToString();
-        answer3 = answer - 1;
-        buttonText3.text = (answer - 1).ToString();
+        answer1 = answers[0];
+        answer2 = answers[1];
+        answer3 = answers[2];
 
         text.text = a + " + " + b;
+
+        //dfklajdfjaklsdfjlaksdfh;lasdfhl;
     }
 
     public void ClickButton1()
