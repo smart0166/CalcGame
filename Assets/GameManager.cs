@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
+        //ㅁ나ㅣ어리ㅏㅁ;널;ㅣㄴ몽ㄹ;ㅓㅚㅇㄹ
         int a = Random.Range(1, 10);
         int b = Random.Range(1, 10);
         answer = a + b;
