@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour {
         answers.Add(answer + 1);
         answers.Add(answer - 1);
 
+        //작업 날라가지마
         Shuffle(answers);
 
         buttonText1.text = answers[0].ToString();
