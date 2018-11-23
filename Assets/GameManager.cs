@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour {
         //작업 날라가지마
         Shuffle(answers);
 
-        buttonText1.text = answers[0].ToString();
+        buttonText1.text = answers[0].ToString();sldfjkjashdfjkalsdf;jasjkdf 사장님 나빠요
         buttonText2.text = answers[1].ToString();
         buttonText3.text = answers[2].ToString();
         
