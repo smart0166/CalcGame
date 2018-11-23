@@ -1,0 +1,3 @@
+[submodule "Assets/MyLib"]
+	path = Assets/MyLib
+	url = https://github.com/LitQoo/shf.git

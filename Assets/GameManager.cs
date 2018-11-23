@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour {
         answers.Add(answer - 1);
 
         //작업 날라가지마
-        Shuffle(answers);
+        Shf.Shuffle(answers);
 
         buttonText1.text = answers[0].ToString();
         buttonText2.text = answers[1].ToString();
@@ -69,17 +69,5 @@ public class GameManager : MonoBehaviour {
 		
 	}
 
-    private System.Random rng = new System.Random();  
-
-    public void Shuffle(IList<int> list)  
-    {  
-        int n = list.Count;  
-        while (n > 1) {  
-            n--;  
-            int k = rng.Next(n + 1);  
-            int value = list[k];  
-            list[k] = list[n];  
-            list[n] = value;  
-        }  
-    }
+   
 }
